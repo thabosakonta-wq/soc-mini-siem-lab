@@ -1,0 +1,27 @@
+# Runtime logs
+logs/*.log
+
+# Temporary files
+logs/*.tmp
+
+# Counters
+logs/*.counter
+
+# State files
+logs/correlation_state.tmp
+
+# Termux files
+*.lock
+
+# Backup files
+*.bak
+
+# Nano temporary files
+*.swp
+
+# Test files
+rules/*.txt
+rules/*.sh
+
+# Future screenshots cache
+screenshots/*.tmp
