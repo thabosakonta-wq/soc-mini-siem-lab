@@ -1,12 +1,14 @@
-SOC Mini SIEM Lab
+# SOC Mini SIEM Lab
 
 Lightweight SOC (Security Operations Center) Mini SIEM Lab built in Bash for Linux and Termux environments.
 
-Overview
+---
+
+## 📌 Overview
 
 This project demonstrates core SOC monitoring and incident detection concepts using shell scripting.
 
-The lab simulates several Security Operations Center functions including:
+It simulates several Security Operations Center functions including:
 
 - File Integrity Monitoring (FIM)
 - Event Correlation
@@ -16,33 +18,31 @@ The lab simulates several Security Operations Center functions including:
 - Real-Time SOC Dashboard
 - Alert Generation
 
-Features
+---
 
-File Integrity Monitoring (FIM)
+## 🚀 Features
 
+### File Integrity Monitoring (FIM)
 Detects file changes by monitoring hashes and identifying unauthorized modifications.
 
-Event Correlation
-
+### Event Correlation
 Analyzes multiple security events and identifies suspicious patterns.
 
-Burst Detection
-
+### Burst Detection
 Detects abnormal spikes in activity that may indicate attacks or misuse.
 
-Incident Logging
-
+### Incident Logging
 Creates structured security logs for analysis and auditing.
 
-Log Rotation
-
+### Log Rotation
 Automatically archives logs to prevent excessive storage consumption.
 
-Real-Time Dashboard
-
+### Real-Time Dashboard
 Displays current security events and system status.
 
-Technologies Used
+---
+
+## 🧰 Technologies Used
 
 - Bash
 - Linux
@@ -53,8 +53,11 @@ Technologies Used
 - Git
 - GitHub
 
-Project Structure
+---
 
+## 📁 Project Structure
+
+```text
 SOC/
 ├── dashboard.sh
 ├── run_soc.sh
@@ -71,84 +74,18 @@ SOC/
 ├── screenshots/
 ├── docs/
 └── examples/
+```
+## 👤 Author
 
-Running the Lab
+Thabo Sakonta  
+Aspiring Cybersecurity Professional  
+Microsoft SC-200 Certified  
+SOC Analyst | GRC Enthusiast  
 
-Start the SOC monitoring environment:
+GitHub: https://github.com/thabosakonta-wq
 
-bash run_soc.sh
+---
 
-Launch the dashboard:
-
-watch -n 3 bash dashboard.sh
-
-Screenshots
-
-SOC Dashboard
-
-"Dashboard" (screenshots/Dashboard.png)
-
-Incident Log
-
-"Incident Log" (screenshots/Incident%20Log.png)
-
-Burst Detection
-
-"Burst Detection" (screenshots/Burst%20Detection1.png)
-
-"Burst Detection" (screenshots/Burst%20Detection2.png)
-
-Learning Objectives
-
-This project helps develop practical skills in:
-
-- Security Monitoring
-- Threat Detection
-- Incident Response
-- Log Analysis
-- Linux Administration
-- SOC Operations
-
-Skills Demonstrated
-
-- File Integrity Monitoring (FIM)
-- Security Event Correlation
-- Incident Detection
-- Log Analysis
-- Bash Scripting
-- Linux Administration
-- Threat Monitoring
-- Security Operations Center (SOC) Concepts
-- Git Version Control
-- GitHub Repository Management
-
-Example Use Cases
-
-- Cybersecurity portfolio project
-- SOC analyst practice lab
-- SIEM concept demonstration
-- Bash scripting practice
-- Security monitoring exercises
-
-Future Enhancements
-
-- Email alerts
-- Web dashboard
-- Threat intelligence integration
-- Automated response actions
-- Cloud log collection
-- MITRE ATT&CK mapping
-- Microsoft Sentinel integration
-
-Author
-
-Thabo Sakonta
-
-Aspiring Cybersecurity Professional | Microsoft SC-200 Certified | SOC Analyst | GRC Enthusiast
-
-GitHub:
-https://github.com/thabosakonta-wq
-
-License
+## 📄 License
 
 This project is released for educational and portfolio purposes.
