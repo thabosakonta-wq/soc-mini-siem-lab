@@ -75,17 +75,16 @@ SOC/
 ├── docs/
 └── examples/
 ```
-## 👤 Author
+#Author
 
-Thabo Sakonta  
-Aspiring Cybersecurity Professional  
-Microsoft SC-200 Certified  
-SOC Analyst | GRC Enthusiast  
+Thabo Sakonta
+
+Microsoft Certified Security Operations Analyst (SC-200)
 
 GitHub: https://github.com/thabosakonta-wq
 
----
+LinkedIn: https://www.linkedin.com/in/thabo-sakonta-377a3748
 
-## 📄 License
+License
 
-This project is released for educational and portfolio purposes.
+This project is provided for educational and portfolio purposes. 
